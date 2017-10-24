@@ -40,7 +40,7 @@
     -webkit-column-count: 2;
     column-count: 2;
   }
-
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -65,4 +65,9 @@
     height: auto;
     padding-bottom: 20px;
   }
+
+  .col-3 p {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
 }
